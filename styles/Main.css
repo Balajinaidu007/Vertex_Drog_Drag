@@ -1,0 +1,46 @@
+#widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+#drop-zone-ui {
+    border: 2px dashed #b4b4b4;
+    border-radius: 10px;
+    padding: 40px;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.drag-over #drop-zone-ui {
+    border-color: #3d82e3;
+    background: #eef5ff;
+}
+
+.fonticon-drag-drop {
+    font-size: 50px;
+    color: #777;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.success-box {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    text-align: left;
+}

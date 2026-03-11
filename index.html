@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:widget="http://www.netvibes.com/ns/">
+<head>
+    <title>3DEXPERIENCE to Vertex Export</title>
+    <link rel="stylesheet" type="text/css" href="styles/Main.css" />
+    <script type="text/javascript" src="scripts/Main.js"></script>
+    <script type="text/javascript">
+        function widgetLoading() {
+            if (widget) { executeWidgetCode(); } 
+            else { setTimeout(widgetLoading, 100); }
+        }
+        widgetLoading();
+    </script>
+</head>
+<body>
+    <div id="widget-container">
+        <div id="drop-zone-ui">
+            <div class="drop-icon-container">
+                <span class="fonticon fonticon-drag-drop"></span>
+            </div>
+            <p>Drop Here to Send Data to Vertex</p>
+        </div>
+        <div id="content-display" style="display:none;"></div>
+    </div>
+</body>
+</html>
