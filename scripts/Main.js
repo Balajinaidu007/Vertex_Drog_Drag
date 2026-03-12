@@ -7,6 +7,9 @@ function executeWidgetCode() {
                 
                 dropZoneUI.style.display = "none";
                 contentDiv.style.display = "block";
+				console.log("obj------------->"+obj);
+				console.log("obj.data-------->"+obj.data);
+				console.log("obj.data.items-->"+obj.data.items);
                 
                 if(obj.data.items[0].objectType !== "VPMReference"){
                     contentDiv.innerHTML = `
