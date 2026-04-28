@@ -43,7 +43,7 @@ function executeWidgetCode() {
                 if (apiBtn) {
                     apiBtn.onclick = function () {
                         if (confirm("Send " + obj.data.items[0].displayName + " to Vertex?")) {
-                            var url = "https://vertex-api-backend.onrender.com/vertexvis/v1/exportdata?id=" + obj.data.items[0].objectId;
+                            var url = "https://www.plmtrainer.com:444/Vertex-0.0.1-SNAPSHOT/vertexvis/v1/exportdata?id=" + obj.data.items[0].objectId;
                             fetch(url, { method: "GET" })
                             .then(res => res.json())
                             .then(data => {
